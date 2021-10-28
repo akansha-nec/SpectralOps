@@ -1,32 +1,21 @@
-# Configuration files are a really frequent source of secrets
 
-'''Common Key Types with obvious names'''
+'''Generic Credentials with obvious names'''
 
-# AWS
-## AWS Access Key ID
-AWS_ACCESS_KEY_ID = 'AKIAIWSXFHRM7F6Z3NWQ'
-username=admin
+# Generic db password
+DATABASE_PASSWORD = 'GYW2mMmpG327BtrdTnUL'
 
-## AWS Secret Access Key
-AWS_ACCESS_SECRET_KEY = 'UpUbsQANRHLf2uuQ7QOlNXPbbtV5fmseW/GgT5D/'
+# Generic weak redis password
+REDIS_PASSWORD = 'redis'
 
-## AWS MWS Auth Token
-MWS_AUTH_TOKEN = 'amzn.mws.f90f3ce6-9b5a-26a7-9a87-4ff8052be2ec'
+# Generic weak postgres password
+POSTGRES_PASSWORD = 'postgres'
+zabbix_password = 'zabbix'
 
+# Generic weak password
+PASSWORD = 'opensaysme'
 
-
-
-'''Common Key Types with obscure names'''
-
-# AWS
-## AWS Access Key ID
-VAR_1 = 'AKIAIWSXFHRM7F6Z3NWQ'
-
-## AWS Secret Access Key
-VAR_2 = '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'
-
-## AWS MWS Auth Token
-VAR_3 = 'amzn.mws.f90f3ce6-9b5a-26a7-9a87-4ff8052be2ec'
+# Generic application secret
+APP_SECRET = 'ttn9Jb9ep2U4KvG9hq6e'
 
 # Generic api key
 API_KEY = 'SGwJgqnZYzH945UBWnauBuKXKLEhq5Le'
@@ -39,6 +28,17 @@ ACCESS_TOKEN = '7340ad40-09b3-11eb-adc1-0242ac120002'
 
 '''Generic Credentials with obscure names that flow into password sinks'''
 
+# Generic password
+SOURCE_1 = 'GYW2mMmpG327BtrdTnUL'
+
+# Generic weak password
+SOURCE_2 = 'redis'
+
+# Generic weak password
+SOURCE_3 = 'opensaysme'
+
+# Generic app secret
+SOURCE_4 = 'ttn9Jb9ep2U4KvG9hq6e'
 
 # Generic api key
 SOURCE_5 = 'SGwJgqnZYzH945UBWnauBuKXKLEhq5Le'
